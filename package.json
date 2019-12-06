@@ -1,0 +1,27 @@
+{
+  "name": "qdiaryserver",
+  "version": "1.0.0",
+  "description": "server for qdiary application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qdiary"
+  ],
+  "author": "linhtq",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.5",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.1"
+  }
+}
